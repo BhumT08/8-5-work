@@ -1,0 +1,67 @@
+.frame {
+  background-color: #ffffff;
+  display: grid;
+  justify-items: center;
+  align-items: start;
+  width: 100vw;
+  min-height: 100vh;
+  height: 100%;
+}
+
+.frame .div {
+  background-color: #ffffff;
+  overflow: hidden;
+  width: 865px;
+  height: 521px;
+  position: relative;
+}
+
+.frame .overlap-group {
+  position: absolute;
+  width: 901px;
+  height: 61px;
+  top: 0;
+  left: -24px;
+  background-color: #d9d9d9;
+}
+
+.frame .home {
+  position: absolute;
+  width: 47px;
+  height: 47px;
+  top: 7px;
+  left: 38px;
+  object-fit: cover;
+}
+
+.frame .element-it-s-what-it-s {
+  position: absolute;
+  width: 269px;
+  height: 120px;
+  top: 89px;
+  left: 376px;
+  font-family: "Inter-Medium", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 24px;
+}
+
+.frame .rectangle {
+  position: absolute;
+  width: 901px;
+  height: 38px;
+  top: 483px;
+  left: 0;
+  background-color: #d9d9d9;
+}
+
+.frame .element {
+  position: absolute;
+  width: 119px;
+  height: 213px;
+  top: 71px;
+  left: 124px;
+  object-fit: cover;
+}
